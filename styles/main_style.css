@@ -1,0 +1,26 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins&family=Abel&family=Didact+Gothic";
+
+/*
+    Popins for titles
+    Abel for subtitles
+    Didactic Gothic for average text
+    all are sans serif
+*/
+
+:root {
+    font-size: 62.5%;
+    --light-blue: #BBD5F0;
+    --blue: #0971A6;
+    --off-blue: #00345C;
+    --dark-blue: #052033;
+    --darker-blue: #000B0F;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: var(--darker-blue);
+    color: var(--light-blue);
+}

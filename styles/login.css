@@ -1,0 +1,29 @@
+#login__container {
+    display: flex padding: 2rem justify-content: center
+}
+
+#login__form {
+    outline: var(--blue) solid 1rem
+}
+
+#form {
+    padding: 2rem
+}
+
+
+
+#form label {
+    display: block margin: 3rem 0 font-size: 3rem color: var(--light-blue) text-align: center font-family: Abel, sans-serif
+}
+
+.form__input {
+    display: block font-size: 1.8rem background-color: var(--dark-blue)
+}
+
+#form__button-container {
+    display: flex justify-content: center
+}
+
+#form__button {
+    margin-top: 3rem width: 7.5rem height: 3rem font-size: 2rem color: var(--light-blue) font-family: Abel, sans-serif background-color: var(--off-blue)
+}

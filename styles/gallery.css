@@ -1,0 +1,31 @@
+/*
+--light-blue: #BBD5F0
+--blue: #0971A6
+--off-blue: #00345C
+--dark-blue: #052033
+--darker-blue: #000B0F
+*/
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3rem;
+    padding: 4rem;
+}
+
+.gallery__div {
+    flex-basis: 55rem;
+    flex-grow: 1;
+    display: flex;
+    border-radius: 2.5rem;
+    transition: box-shadow .75s ease-in .5s;
+}
+
+.gallery__div:hover {
+    box-shadow: 0 0 1.5rem var(--blue);
+}
+
+.gallery__div img {
+    object-fit: cover;
+    border-radius: 2.5rem;
+}
